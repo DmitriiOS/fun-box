@@ -1,0 +1,143 @@
+:root {
+    --main-color: #1698D9;
+}
+
+.card {
+    width: 320px;
+    height:  509px;
+}
+
+.card:hover {
+    --main-color: #2EA8E6;
+}
+
+.selected {
+    --main-color: #D91667;
+}
+
+.selected:hover {
+    --main-color: #E52E7A;   
+}
+
+.card-disabled {
+    --main-color: #B3B3B3; 
+    opacity: 0.5;
+}
+
+.text-disabled {
+    color: #FFFF66;
+}
+
+.main-part-border {
+    position: relative;
+    width: 328px;
+    height: 488px;
+    background-color: var(--main-color);
+    border-radius: 14px;
+    margin-bottom: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+
+.main-part {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    position: relative;
+    height: 480px;
+    width: 320px;
+    overflow: hidden;
+    clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 50px;
+}
+
+.promo-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.volume, .gift, .additional-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.weight-info {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.weight {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.measure {
+    margin: -12px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.motto-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.motto-text a {
+    color: var(--main-color);
+    text-decoration-style: dashed;
+    padding-bottom: 40px;
+}
+
+.cat-pic {
+    height: 360px;
+    position: absolute;
+    top: 208px;
+    left: -24px;
+}

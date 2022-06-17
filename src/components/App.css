@@ -1,0 +1,19 @@
+.main-container {
+    /* background-image: url(../images/Pattern.png); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    min-height: 100vh;
+    width: 100vw;   
+    margin: auto;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
